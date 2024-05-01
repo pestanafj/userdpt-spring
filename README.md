@@ -33,43 +33,43 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 *   Apagar usuário por id<br><br>
 
 
-### 🙋🏻 Listar usuários
+### 🖉 Listar usuários
 Rota: ``GET /users`` 
 
 Retorna todos os usuários cadastrados<br><br>
 
-### 🙋🏻 Listar usuário por Id
+### 🖉 Listar usuário por Id
 Rota: ``GET /users/{id}`` GET
 
 Retorna um usuário a partir do id<br><br>
 
-### 🙋🏻 Adicionar usuário
+### 🖉 Adicionar usuário
 Rota: ``POST /users/`` 
 
 Adiciona um usuário.<br>
 É necessário enviar no corpo da requisição as informações do usuário.<br><br>
 
-### 🙋🏻 Apagar todos os usuários
+### 🖉 Apagar todos os usuários
 Rota: ``DELETE /users/`` 
 
 Deleta todos os usuários.<br><br>
 
-### 🙋🏻 Apagar usuário
+### 🖉 Apagar usuário
 Rota: ``DELETE /users/{id}`` 
 
 Deleta um usuário a partir do Id.<br><br>
 
-### 🙋🏻 Listar departamentos
+### 🖉 Listar departamentos
 Rota: ``GET /departments`` 
 
 Retorna todos os departamentos cadastrados.<br><br>
 
-### 🙋🏻 Listar departamento por Id
+### 🖉 Listar departamento por Id
 Rota: ``GET /departments/{id}`` 
 
 Retorna um departamento a partir do id.<br><br>
 
-### 🙋🏻 Adicionar departamento
+### 🖉 Adicionar departamento
 Rota: ``POST /departments/`` 
 
 Adiciona um departamento.<br>
