@@ -23,74 +23,59 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 ## ⚙️ Funcionalidades:
 
 
-*   Listar personagens
-*   Listar localizações
-*   Listar episódios
-*   Perfil de personagem
-*   Detalhes da localização
-*   Detalhes do episódio
+*   Listar usuários
+*   Listar departamentos
+*   Listar usuário por id
+*   Listar departamento por id
+*   Adicionar usuário
+*   Adicionar departamento
+*   Apagar todos os usuários
+*   Apagar usuário por id<br><br>
 
 
-<br><br>
+### 🙋🏻 Listar usuários
+Rota: ``GET /users`` 
 
-## Organização da Squad
+Retorna todos os usuários cadastrados<br><br>
 
-Foi criado o repositório no GitHub, ao qual foi atrelado um Project Kanban, onde foram disponibilizadas as Issues, que foram escolhidas pelos membros da equipe para desenvolvimento e pull request.
+### 🙋🏻 Listar usuário por Id
+Rota: ``GET /users/{id}`` GET
 
-Repositório: https://github.com/pestanafj/rick-and-morty-api/
+Retorna um usuário a partir do id<br><br>
 
-Também foram realizadas reuniões organizacionais pelo Discord, onde ficou decidido coletivamente as representantes para a apresentação
-<br><br>
+### 🙋🏻 Adicionar usuário
+Rota: ``POST /users/`` 
 
-### 🙋🏻 Listar personagens
-Rota: ``/characters`` ``/characters?page=<page>``
+Adiciona um usuário.<br>
+É necessário enviar no corpo da requisição as informações do usuário.<br><br>
 
-Retorna página apresentando cards com a fotos e nomes dos personagens da série
+### 🙋🏻 Apagar todos os usuários
+Rota: ``DELETE /users/`` 
 
+Deleta todos os usuários.<br><br>
 
-<br><br>
-### 📽️ Listar Episódios
-Rota: ``/episodes`` ``/episodes?page=<page>``
+### 🙋🏻 Apagar usuário
+Rota: ``DELETE /users/{id}`` 
 
-Retorna página apresentando cards com os episódios da série
+Deleta um usuário a partir do Id.<br><br>
 
+### 🙋🏻 Listar departamentos
+Rota: ``GET /departments`` 
 
-<br><br>
-### 🌍 Listar Localizações
-Rota: ``/locations`` ``/locations?page=<page>``
+Retorna todos os departamentos cadastrados.<br><br>
 
-Retorna página apresentando cards com as localizações da série
+### 🙋🏻 Listar departamento por Id
+Rota: ``GET /departments/{id}`` 
 
+Retorna um departamento a partir do id.<br><br>
 
-<br><br>
-### 👨🏻 Perfil do Personagem
-Rota: ``/character/<id>``
+### 🙋🏻 Adicionar departamento
+Rota: ``POST /departments/`` 
 
-Retorna página apresentando o perfil do personagem, contendo as informações de nome, espécie, status (vivo ou morto), origem, local de residência e episódios em que aparece.
-<br><br>
-### 📽️ Detalhes do Episódio
-Rota: ``/episode/<id>``
-
-Retorna página apresentando detalhes do episódio, contendo as informações de nome, código, data da exibição e personagens que aparecem nele.
-<br><br>
-### 🌍 Detalhes da Localização
-Rota: ``/location/<id>``
-
-Retorna página apresentando detalhes da localização, contendo as informações de nome, tipo, dimensão e residentes.
+Adiciona um departamento.<br>
+É necessário enviar no corpo da requisição as informações do departamento.<br><br>
 
 <br><br>
-## 👩🏻‍💻 Autoras
-API criada em Fevereiro de 2024 durante Bootcamp WomakersCode Backend Python + Django
-#### Squad Katherine Johnson
+## 👩🏻‍💻 Autora
 - Fernanda Pestana
-- Amanda Paul
-- Gleyce Alves
-- Juliana Carvalho
-- Heloísa Santos
-- Carolina Mendes
-- Lais Victoria
-- Jataiza Barboza
-- Maiara Santos
-- Nicolle Sturzbecher
-- Mariama Nascimento 
-
+API criada em Maio de 2024
