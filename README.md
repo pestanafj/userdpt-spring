@@ -77,5 +77,5 @@ Adiciona um departamento.<br>
 
 <br><br>
 ## 👩🏻‍💻 Autora
-- Fernanda Pestana
+- Fernanda Pestana<br>
 API criada em Maio de 2024
